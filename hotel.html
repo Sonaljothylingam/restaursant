@@ -1,0 +1,90 @@
+<html>
+    <head><title>RESTAURANT</title>
+        <style>
+          h1 {text-align: center;
+             background-color: black;
+            color: white;}
+          form {text-align: center;}
+          img { background-repeat: no-repeat;
+                 width: 100%;
+                height:450px;}
+          table {font-family: arial, sans-serif;
+                 border-collapse: collapse;
+                 width: 100%;}
+           td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+                }
+           tr:nth-child(even) {
+                background-color: #dddddd;
+                }
+        </style>
+    </head>
+<body>
+    
+    <header id="header">
+        <div class="head"><h1>Restaurant </h1></div>
+      </header>
+      <div class="img"><img src="pic.jpg" alt="picture of our hotel"></div>
+
+<br><br><br>
+
+      <form action="http://localhost/Restr/restinsert.php" method="post">
+Your_name: <input type="text" name="Your_name"/>
+Food_Id : <input type="text"name="Food_Id"/>
+Food_name: <input type="text" name="Food_name"/>
+
+<input type="submit"/>
+</form>
+<table>
+    
+        <tr>
+          <th>Food ID</th>
+          <th>Food Name </th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>F01</td>
+          <td>Mangalore Buns</td>
+          <td>Rs.200/-</td>
+        </tr>
+        <tr>
+          <td>F02</td>
+          <td>Dal Obbattu</td>
+          <td>Rs.180/-</td>
+        </tr>
+        <tr>
+          <td>F03</td>
+          <td>dal</td>
+          <td>Rs.45/-</td>
+        </tr>
+        <tr>
+          <td>F04</td>
+          <td>Dosa</td>
+          <td>Rs.60/-</td>
+        </tr>
+        <tr>
+          <td>F06</td>
+          <td>Bhaji With Filter Kaapi</td>
+          <td>Rs.100/-</td>
+        </tr>
+        <tr>
+          <td>F07</td>
+          <td>Uttapam</td>
+          <td>Rs.50/-</td>
+        </tr>
+        <tr>
+            <td>F08</td>
+            <td>Sandwich And Parantha</td>
+            <td>Rs.100/-</td>
+          </tr>
+          <tr>
+            <td>F09</td>
+            <td>Kebabs And Rolls</td>
+            <td>Rs.250/-</td>
+          </tr>
+        
+</table>
+</body>
+</html>
